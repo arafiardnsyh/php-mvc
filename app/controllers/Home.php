@@ -4,5 +4,4 @@ class Home {
 	{
 		echo 'home/index';
 	}
-
 }
