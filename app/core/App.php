@@ -37,7 +37,6 @@ class App {
 
 		//jalankan controller & method, serta kirimkan params jika ada
 		call_user_func_array([$this->controller, $this->method], $this->params);
-		call_user_func_array(function, param_arr)
 	}
 
 	public function parseURL()
