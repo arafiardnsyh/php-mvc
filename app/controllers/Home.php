@@ -2,6 +2,6 @@
 class Home {
 	public function index()
 	{
-		echo 'home/index';
+		$this->view('Home/index')
 	}
 }
