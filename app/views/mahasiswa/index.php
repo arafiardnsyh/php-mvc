@@ -1,4 +1,10 @@
 <div class="container mt-3">
+	<div class="row">
+		<div class="col-6">
+			<!-- memanggil class static flash -->
+			<?php Flasher::flash(); ?> 
+		</div>
+	</div>
 	
 	<div class="row">
 		<div class="col-6">
